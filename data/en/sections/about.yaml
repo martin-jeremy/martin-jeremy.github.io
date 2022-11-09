@@ -1,0 +1,63 @@
+# Section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# Designation
+designation: Bioinformatician Engineer
+company:
+  name: Gaudenzio Lab, INFINITy
+  url: https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/
+
+# Summary
+summary : 'I am a **passionate bioinformatician** with 2 years of working experience in academy. In one hand, I conduct **data anlysis** _(principaly imaging, transcriptomics, proteomics)_. In other hand, I built some **tools** _to facilitate data exploration by biologist_.'
+
+# Social links
+socialLinks:
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/martin-jeremy"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jeremy-martin-tlse"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "jeremy.martin@inserm.fr"
+
+# Availble CV download
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Badges and Skills
+badges:
+- type: soft-skill-indicator
+  name: Team working
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Autonomy
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Task Priorization
+  percentage: 80
+  color: green
+
+- type: soft-skill-indicator
+  name: Adaptability and Flexibility
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Technical Vulgarization
+  percentage: 85
+  color: "#b5b5bd"
