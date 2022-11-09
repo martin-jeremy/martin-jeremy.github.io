@@ -78,7 +78,7 @@ params:
       customMenus: true
 
   # Background image for the landing page
-  background: images/site/background3.jpg
+  background: images/site/background.jpg
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
