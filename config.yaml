@@ -15,20 +15,13 @@ languages:
   #   languageName: Français
   #   weight: 2
 
-# Control TOC depth
-markup:
-  tableOfContents:
-    startLevel: 1
-    endLevel: 6
-    ordered: false
-
 # Allow raw html in markdown file
 markup:
   goldmark:
     render:
       unsafe: true
   tableOfContents:
-    startLevel: 2
+    startLevel: 1
     endLevel: 6
     ordered: false
 
