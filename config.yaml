@@ -1,0 +1,39 @@
+baseURL: https://martin-jeremy.github.io/
+
+languageCode: en-us
+title: "Jérémy Martin's Portfolio"
+theme: "toha"
+
+# Manage Languages
+languages:
+  en:
+    title: "Jérémy Martin's Portfolio"
+    languageName: English
+    weight: 1
+  fr:
+    title: "Portfolio de Jérémy Martin"
+    languageName: Français
+    weight: 2
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 6
+    ordered: false
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # GitHub repo URL
+  gitRepo: https://github.com/martin-jeremy/martin-jeremy.github.io
+  # Specify whether you want to write some blog posts or not
+  enableBlogPost: true
+  # Specify whether you want to show TOC in reading page
+  enableTOC: true
+  # Provide newsletter configuration
+  newsletter:
+    enable: false
+
