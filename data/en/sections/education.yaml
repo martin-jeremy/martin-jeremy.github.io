@@ -6,8 +6,6 @@ section:
   enable: true
   weight: 4
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 degrees:
 - name: M.Sc. in Bioinformatics and System Biology
@@ -73,25 +71,37 @@ degrees:
   institution:
     name: Paul Sabatier, University of Toulouse III
     url: "https://www.univ-tlse3.fr/licence-parcours-biochimie-biologie-moleculaire-et-microbiologie-2b2m"
-  takenCourses: #(optional)
+  takenCourses: 
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
     collapseAfter: 4
     courses:
-    - name: 
-    - name:
-- name: Higher Secondary School Certificate
+    - name: Structural Biochemistry
+    - name: Analytical Biochemistry
+    - name: Microbiology and Molecular Genetics
+    - name: Methodology in Molecular Biology
+    - name: Immunology
+    - name: Bioanalysis
+    - name: Interaction Protein-Protein
+    - name: Metabolisme and Enzymology
+    - name: Cellular Biology
+
+- name: H.N.D. in Medical Laboratory Technology
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2012-2014
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    name: Dr Lacroix High School
+    url: "https://docteur-lacroix.mon-ent-occitanie.fr/"
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Technical and Clinical Biochemistry
+    - name: Technical and Clinical Hematology
+    - name: Technical and Clinical Bacteriology
+    - name: Technical and Clinical Parasitology
+    - name: Technical and Clinical Immunology
+    - name: Human Biology and Homeostasis
+    - name: Lab Quality
+  extracurricularActivities:
+  - 'Internship: Pathological Department of Toulouse Hospital. Internship within the Cytology department, acquisition of good practice in cytology and histology lab, classical techniques and advanced (immuno)-hysto/cytochemistry.'
