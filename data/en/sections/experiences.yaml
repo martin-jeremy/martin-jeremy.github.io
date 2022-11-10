@@ -32,12 +32,13 @@ experiences:
 
 - company:
     name: SeqOccin, GenPhySe (INRAE)
-
-    positions:
-    - designation: Bioinformatician Internship
-      start: Jun 2020
-      end: Aug 2020
-      responsibilities:
-      - Design, develop and conduct Hi-C Analysis.
-      - Familiarization with HPC SLURM from GenoToul.
-      - Introduction to nextflow NF-Core pipeline.
+    location: Auzeville, FRANCE (31)
+    overview: Facultative Internship. Full-remote.
+  positions:
+  - designation: Bioinformatician Internship
+    start: Jun 2020
+    end: Aug 2020
+    responsibilities:
+    - Design, develop and conduct Hi-C Analysis.
+    - Familiarization with HPC SLURM from GenoToul.
+    - Introduction to nextflow NF-Core pipeline.
