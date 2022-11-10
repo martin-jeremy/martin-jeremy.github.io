@@ -1,0 +1,97 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: M.Sc. in Bioinformatics and System Biology
+  icon: fa-graduation-cap
+  timeframe: 2020-2021
+  institution:
+    name: Paul Sabatier, University of Toulouse III
+    url: "https://www.univ-tlse3.fr/master-mention-bio-informatique"
+  grade:
+    scale: Classement
+    achieved: 1
+    outOf: 16
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: System Biology and Modelisation
+    - name: Introduction to Machine Learning
+    - name: Scientific Communications
+    - name: Advanced databases
+    - name: Heterogeneous Data Integration
+    - name: Phylogenomics
+    - name: Introduction to Paleogenomics
+  extracurricularActivities:
+  - '6-Months Internship: Study of the communication between sensory neurons and immune cells during allergic contact dermatitis: a bioinformatic approach.'
+  - '6-Months Internship: development of an analysis pipeline to deals with single cell RNA-seq data. During this internship, I conducted transcriptomics analysis of mast cells and neuro-immune interactome study. I also initiated peptidomics and proteomics study. Finally, I draft a R Shiny application to allow lab members to explore by their own way their single cell RNA-seq data.'
+
+
+- name: B.Sc. Hons. in Bioinformatics & System Biology
+  icon: fa-graduation-cap
+  timeframe: 2019-2020
+  institution:
+    name: Paul Sabatier, University of Toulouse III
+    url: "https://www.univ-tlse3.fr/master-mention-bio-informatique"
+  grade:
+    scale: Classement
+    achieved: 3
+    outOf: 17
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Sequences Bioinformatics
+    - name: Genomics Bioinformatics
+    - name: Programation applied to Bioinformatics (Python)
+    - name: Graphs and Biological Networks
+    - name: Introduction to databases
+    - name: Mathematics for Biology
+    - name: Algorithmic and Complexity
+    - name: Postgenomic data treatment
+    - name: Molecular Evolution
+    - name: Data Mining
+    - name: Avanced Programation and Software Engineering (Java)
+    - name: Multivariate Analysis
+    - name: Biostatistics and Linear Models
+  extracurricularActivities:
+  - '2-Months Internship: Polled-HiC, an analysis to map chromosomic regions of interest in bovine models.'
+  - 'Tutored Project: Benchmarking of read counting tools and characterization of a difference in the calculation of the sequencing depth.'
+
+- name: B.Sc. in Biochemistry, Microbiology & Molecular Biology
+  icon: fa-graduation-cap
+  timeframe: 2017-2019
+  institution:
+    name: Paul Sabatier, University of Toulouse III
+    url: "https://www.univ-tlse3.fr/licence-parcours-biochimie-biologie-moleculaire-et-microbiologie-2b2m"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: 
+    - name:
+- name: Higher Secondary School Certificate
+  icon: fa-university
+  timeframe: 2010-2012
+  institution:
+    name: MST College of Science
+    url: "#"
+  grade: #(optional)
+    scale: GPA
+    achieved: 5
+    outOf: 5
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.

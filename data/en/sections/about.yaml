@@ -30,7 +30,7 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "jeremy.martin@inserm.fr"
 
-# Availble CV download
+# Available CV download
 resourceLinks:
 - title: "My Resume"
   url: "files/resume.pdf"
