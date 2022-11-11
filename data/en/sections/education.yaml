@@ -31,8 +31,6 @@ degrees:
     - name: Introduction to Paleogenomics
   extracurricularActivities:
   - '6-Months Internship: Study of the communication between sensory neurons and immune cells during allergic contact dermatitis: a bioinformatic approach.'
-  - '6-Months Internship: development of an analysis pipeline to deals with single cell RNA-seq data. During this internship, I conducted transcriptomics analysis of mast cells and neuro-immune interactome study. I also initiated peptidomics and proteomics study. Finally, I draft a R Shiny application to allow lab members to explore by their own way their single cell RNA-seq data.'
-
 
 - name: B.Sc. Hons. in Bioinformatics & System Biology
   icon: fa-graduation-cap
