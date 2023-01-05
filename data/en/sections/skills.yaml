@@ -37,6 +37,11 @@ skills:
   summary: "Experienced with git-based developpement. Mostly, use GitHub in personal account and with an organisational account. Also, have experience in working with GitLab."
   url: "https://git-scm.com"
 
+- name: Alphafold
+  logo: images/sections/skills/Deepmind.png
+  summary: "Getting started with Alphafold and Alphafold-multimer. Data visualization and model manipulation with ChimeraX from UCSC."
+  url: "https://github.com/deepmind/alphafold"
+
 # - name: Cluster Computing
 #   logo: images/sections/skills/
 #   summary:
