@@ -17,7 +17,7 @@ section:
   enable: true
   weight: 8
   showOnNavbar: false
-  hideTitle: false # optionally hide the title in sections
+  hideTitle: true # optionally hide the title in sections
 
 accomplishments:
 - name: Practicals on machine and deep learning using R and Keras
