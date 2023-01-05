@@ -1,0 +1,45 @@
+# ################################################
+# This sections is about accomplishments and class 
+# succeed. Entries needs to follow this template:
+# accomplishments:
+# - name:
+#   timeline:
+#   organization:
+#     name:
+#     url:
+#   courseOverview:
+#   certificateURL: (optional)
+# ################################################
+
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  hideTitle: false # optionally hide the title in sections
+
+accomplishments:
+- name: Practicals on machine and deep learning using R and Keras
+  timeline: "09/27 - 09/28/2022"
+  organization:
+    name: INRAe Occitanie - Toulouse, Genotoul Biostat
+    url: "https://perso.math.univ-toulouse.fr/biostat/formation/practicals-on-machine-and-deep-learning-using-r-keras/"
+
+- name: Machine Learning Assessment
+  timeline: "08/30/2022"
+  organization:
+    name: LinkedIn Skill Assessment
+    url: "https://www.linkedin.com"
+
+- name: Bash Assessment
+  timeline: "08/30/2022"
+  organization:
+    name: LinkedIn Skill Assessment
+    url: "https://www.linkedin.com"
+
+- name: R Assessment
+  timeline: "04/22/2022"
+  organization:
+    name: LinkedIn Skill Assessment
+    url: "https://www.linkedin.com"
