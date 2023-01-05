@@ -16,8 +16,8 @@ section:
   id: accomplishments
   enable: true
   weight: 8
-  showOnNavbar: false
-  hideTitle: true # optionally hide the title in sections
+  showOnNavbar: true
+  hideTitle: false # optionally hide the title in sections
 
 accomplishments:
 - name: Practicals on machine and deep learning using R and Keras
@@ -25,7 +25,6 @@ accomplishments:
   organization:
     name: INRAe Occitanie - Toulouse, Genotoul Biostat
     url: "https://perso.math.univ-toulouse.fr/biostat/formation/practicals-on-machine-and-deep-learning-using-r-keras/"
-  courseOverview: blablabla
 
 - name: Machine Learning Assessment
   timeline: "08/30/2022"
