@@ -10,16 +10,16 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Immunology"
-  filter: "immunology"
 - name: "Bioinformatics"
   filter: "bioinformatics"
-- name: "Transcriptomics"
-  filter: "transcriptomics"
+- name: "Immunology"
+  filter: "immunology"
 - name: "Neurology"
   filter: "neurology"
 - name: "Technology"
   filter: "technology"
+- name: "Transcriptomics"
+  filter: "transcriptomics"
 
 # publications
 publications:
@@ -68,8 +68,8 @@ publications:
   paper:
     summary:
     url: https://doi.org/10.1101/2023.01.13.523748
-  categories: ["skin", "immunology", "immaging", "multiplex"]
-  tags: ["Immunology", "Technology"]
+  categories: ["bioinformatics", "immunology", "technology" ]
+  tags: ["Bioinformatics", "Immunology", "Multiplex imaging", "Skin", "Technology"]
 
 - title: 'PREPRINT: Single-cell analysis of mast cell populations across organs reveals insights into cell origins, anatomical niches and neuron-associated functions.'
   publishedIn:
@@ -134,8 +134,8 @@ publications:
   paper:
     summary: Mast cells (MCs) are heterogenous tissue-resident immune cells associated with blood vessels and neurons. However, the extent to which specialized MCs can exhibit micro-environment-specific functions is unclear. Using single cell RNA sequencing, we characterize connective tissue-type and mucosal MCs across organs and found that they can be discriminated based on MrgprB2 expression. While MrgprB2+ connective MCs are enriched in neuroreceptors, develop during the embryogenesis and renew independently of the bone marrow (BM); MrgprB2neg mucosal MCs arise postnatally, are sensitive to signals from the microbiome and renewed by BM progenitors. Importantly, MrgprB2+, but not MrgprB2neg MCs are required for food-induced anaphylactic shock. In the gut, MrgprB2+ MCs occur in contact with substance P-secreting enteric neurons and the specific depletion of either MrgprB2+ MCs or substance P results in dysregulation of gut contractions. Thus, we demonstrate that two independent MC populations exist in multiple organs, with different developmental dynamics and biological programming.
     url: https://doi.org/10.21203/rs.3.rs-1985285/v1
-  categories: ["neurology", "immunology", "transcriptomics"]
-  tags: ["Immunology", "Transcriptomics"]
+  categories: ["bioinformatics", "immunology", "neurology", "transcriptomics"]
+  tags: ["Bioinformatics", "Immunology", "Transcriptomics"]
 
 - title: The neuronal tyrosine kinase receptor ligand ALKAL2 mediates persistent pain
   publishedIn:
@@ -184,5 +184,5 @@ publications:
   paper:
     summary: The anaplastic lymphoma kinase (ALK) is a receptor tyrosine kinase known for its oncogenic potential that is involved in the development of the peripheral and central nervous system. ALK receptor ligands ALKAL1 and ALKAL2 were recently found to promote neuronal differentiation and survival. Here, we show that inflammation or injury enhanced ALKAL2 expression in a subset of TRPV1+ sensory neurons. Notably, ALKAL2 was particularly enriched in both mouse and human peptidergic nociceptors, yet weakly expressed in nonpeptidergic, large-diameter myelinated neurons or in the brain. Using a coculture expression system, we found that nociceptors exposed to ALKAL2 exhibited heightened excitability and neurite outgrowth. Intraplantar CFA or intrathecal infusion of recombinant ALKAL2 led to ALK phosphorylation in the lumbar dorsal horn of the spinal cord. Finally, depletion of ALKAL2 in dorsal root ganglia or blocking ALK with clinically available compounds crizotinib or lorlatinib reversed thermal hyperalgesia and mechanical allodynia induced by inflammation or nerve injury, respectively. Overall, our work uncovers the ALKAL2/ALK signaling axis as a central regulator of nociceptor-induced sensitization. We propose that clinically approved ALK inhibitors used for non–small cell lung cancer and neuroblastomas could be repurposed to treat persistent pain conditions.
     url: http://dx.doi.org/10.1172/JCI154317
-  categories: ["neurology"]
-  tags: ["Neurology", "Neuroinflammtation", "Sensory neurons"]
+  categories: ["bioinformatics", "neurology"]
+  tags: ["Bioinformatics", "Neuroinflammtation", "Neurology", "Sensory neurons"]
