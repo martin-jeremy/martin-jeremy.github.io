@@ -1,9 +1,9 @@
 ---
-title: Facetting with ggplot
+title: Facetting and Highlighting
 weight: 10
 menu:
   notes:
-    name: Facetting with ggplot
+    name: Facetting and Highlighting
     identifier: notes-r-ggplot-facetting
     parent: notes-r-ggplot
     weight: 10
@@ -23,7 +23,8 @@ A reduced version of [`{starwars}`](https://dplyr.tidyverse.org/reference/starwa
 
 ```r
  ggplot(starwars.light) +
-   geom_point(aes(x = height, y = mass, col = species), size = 2.5)
+   geom_point(aes(x = height, y = mass, col = species), size = 2.5) +
+   facet_wrap(~species)
 ```
 
 ![classical_facets](/notes/R/facetting/01.png)
@@ -43,6 +44,38 @@ A reduced version of [`{starwars}`](https://dplyr.tidyverse.org/reference/starwa
 
 ---
 
+**Two way facetting:**
+
+Note that I changed `facet_wrap()` to `facet_grid()`
+
+```r
+ ggplot(starwars.light) +
+   geom_point(aes(x = height, y = mass, col = gender), size = 2.5) +
+   facet_grid(gender~species)
+```
+
+![two_way_facets](/notes/R/facetting/03.png)
+
+To add an `(all)` margin to the plot, just add `margin = TRUE` in the facet_grid
+
+```r
+ ggplot(starwars.light) +
+   geom_point(aes(x = height, y = mass, col = gender), size = 2.5) +
+   facet_grid(gender~species, margin = TRUE)
+```
+
+![two_way_facets_w_margin](/notes/R/facetting/04.png)
+
+{{< /note >}}
+
+{{< note title="Highlighting with ggplot">}}
+
+The trick here, consist to initialize the ggplot space with a dataset without the categorical information (here, species):
+
+![all_no_species](/notes/R/facetting/05.png)
+
+---
+
 **Facetting with highlighting:**
 
 ```r
@@ -52,7 +85,7 @@ A reduced version of [`{starwars}`](https://dplyr.tidyverse.org/reference/starwa
    facet_wrap(~species)
 ```
 
-![highlight_facets](/notes/R/facetting/03.png)
+![highlight_facets](/notes/R/facetting/06.png)
 
 ---
 
@@ -66,11 +99,11 @@ A reduced version of [`{starwars}`](https://dplyr.tidyverse.org/reference/starwa
    facet_wrap(~species)
 ```
 
-![highlight_all_facets](/notes/R/facetting/04.png)
+![highlight_all_facets](/notes/R/facetting/07.png)
 
 ---
 
-**Two way facetting:**
+**Two way highlighting:**
 
 Note that I changed `facet_wrap()` to `facet_grid()`
 
@@ -81,7 +114,7 @@ Note that I changed `facet_wrap()` to `facet_grid()`
    facet_grid(gender~species)
 ```
 
-![two_way_facets](/notes/R/facetting/05.png)
+![two_way_facets](/notes/R/facetting/08.png)
 
 To add an `(all)` margin to the plot, just add `margin = TRUE` in the facet_grid
 
@@ -92,4 +125,4 @@ To add an `(all)` margin to the plot, just add `margin = TRUE` in the facet_grid
    facet_grid(gender~species, margin = TRUE)
 ```
 
-![two_way_facets_w_margin](/notes/R/facetting/06.png)
+![two_way_facets_w_margin](/notes/R/facetting/09.png)
