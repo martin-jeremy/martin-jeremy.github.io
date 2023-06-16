@@ -23,10 +23,10 @@ buttons:
 
 # publications
 publications:
-- title: 'PREPRINT: 3-D deconvolution of human skin immune architecture with Multiplex ANnotated Tissue Imaging System (MANTIS)'
+- title: '3-D deconvolution of human skin immune architecture with Multiplex ANnotated Tissue Imaging System (MANTIS)'
   publishedIn:
-    name: BioRxiv
-    date: January, 2023
+    name: ScienceAdvances
+    date: June, 2023
     url: https://wwww.biorxiv.org
   authors:
     - name: Manon Scholaert
@@ -67,75 +67,9 @@ publications:
       url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
   paper:
     summary: Routine clinical assays, such as conventional immunohistochemistry, often fail to resolve the regional heterogeneity of complex inflammatory skin conditions. Here we introduce MANTIS (Multiplexed Annotated Tissue Imaging System), a flexible analytic pipeline compatible with routine practice, specifically-designed for spatially-resolved immune phenotyping of the skin in experimental or clinical samples. Based on phenotype attribution matrices coupled to α-shape algorithms, MANTIS projects a representative digital immune landscape, while enabling automated detection of major inflammatory clusters and concomitant single-cell data quantification of biomarkers. 
-    url: https://doi.org/10.1101/2023.01.13.523748
+    url: https://doi.org/10.1126/sciadv.adf9491
   categories: ["bioinformatics", "immunology", "technology" ]
   tags: ["Bioinformatics", "Immunology", "Multiplex imaging", "Skin", "Technology"]
-
-- title: 'PREPRINT: Single-cell analysis of mast cell populations across organs reveals insights into cell origins, anatomical niches and neuron-associated functions.'
-  publishedIn:
-    name: Nature protfolio
-    date: September, 2022
-    url: https://www.nature.com/
-  authors:
-    - name: Marie Tauber
-      url: "#publications"
-    - name: Lilian Basso
-      url: "#publications"
-    - name: Eve Wemelle
-      url: "#publications"
-    - name: Jérémy Martin
-      url: "#publications"
-    - name: Luciana Bostan
-      url: "#publications"
-    - name: Marlene Magalhaes Pinto
-      url: "#publications"
-    - name: Guilhem Thierry
-      url: "#publications"
-    - name: Raissa Houmadi
-      url: "#publications"
-    - name: Nadine Serhan
-      url: "#publications"
-    - name: Alexia Loste
-      url: "#publications"
-    - name: Camille Bleriot
-      url: "#publications"
-    - name: Celine El Samrout
-      url: "#publications"
-    - name: Reena Lasrado
-      url: "#publications"
-    - name: Jasper Kamphuis
-      url: "#publications"
-    - name: Vassilis Pachnis
-      url: "#publications"
-    - name: Mirjana Grujic
-      url: "#publications"
-    - name: Lena Kjellén
-      url: "#publications"
-    - name: Gunnar Pejler
-      url: "#publications"
-    - name: Carle Paul
-      url: "#publications"
-    - name: Xinzhong Dong
-      url: "#publications"
-    - name: Stephen Galli
-      url: "#publications"
-    - name: Laurent Reber
-      url: "#publications"
-    - name: Florent Ginhoux
-      url: "#publications"
-    - name: Marc Bajenoff
-      url: "#publications"
-    - name: Rebecca Gentek
-      url: "#publications"
-    - name: Claude Knauff
-      url: "#publications"
-    - name: Nicolas Gaudenzio
-      url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
-  paper:
-    summary: Mast cells (MCs) are heterogenous tissue-resident immune cells associated with blood vessels and neurons. However, the extent to which specialized MCs can exhibit micro-environment-specific functions is unclear. Using single cell RNA sequencing, we characterize connective tissue-type and mucosal MCs across organs and found that they can be discriminated based on MrgprB2 expression. While MrgprB2+ connective MCs are enriched in neuroreceptors, develop during the embryogenesis and renew independently of the bone marrow (BM); MrgprB2neg mucosal MCs arise postnatally, are sensitive to signals from the microbiome and renewed by BM progenitors. Importantly, MrgprB2+, but not MrgprB2neg MCs are required for food-induced anaphylactic shock. In the gut, MrgprB2+ MCs occur in contact with substance P-secreting enteric neurons and the specific depletion of either MrgprB2+ MCs or substance P results in dysregulation of gut contractions. Thus, we demonstrate that two independent MC populations exist in multiple organs, with different developmental dynamics and biological programming.
-    url: https://doi.org/10.21203/rs.3.rs-1985285/v1
-  categories: ["bioinformatics", "immunology", "neurology", "transcriptomics"]
-  tags: ["Bioinformatics", "Immunology", "Transcriptomics"]
 
 - title: The neuronal tyrosine kinase receptor ligand ALKAL2 mediates persistent pain
   publishedIn:
