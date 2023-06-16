@@ -20,6 +20,12 @@ section:
   hideTitle: false # optionally hide the title in sections
 
 accomplishments:
+- name: Avanced R Course / Machine Learning with R and Caret
+  timeline: "05/24 - 05/31 - 06/07/2023"
+  organization:
+    name: Formatech Consulting
+    url: "http://www.formatech-consulting.com/accueil.html"
+
 - name: Practicals on machine and deep learning using R and Keras
   timeline: "09/27 - 09/28/2022"
   organization:
