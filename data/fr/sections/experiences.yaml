@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Éxpériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+- company:
+    name: Immception Lab, INFINITy (INSERM UMR 1291)
+    url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
+    location: Toulouse, FRANCE (31)
+    # company overview
+    overview: Ingénieur d'étude en bioinformatique. Il m'a été confié les analyses des données générées par l'équipe du laboratoire. Pour répondre aux problématiques du l'équipe, j'élabore des pipeline d'analyses construit autour de R et Python.
+  positions:
+  - designation: Ingénieur d'Etude en Bioinformatique (Catégorie A)
+    start: Juil. 2021
+    responsibilities:
+    - Concevoir, développer et conduire des pipelines d'analyses multiomiques.
+    - Concervoir, développer et prodiguer des formations en bioinformatique.
+    - Communiquer et vulgariser les évolutions et nouvelles méthodes développer dans mon domaine d'expértise.
+
+  - designation: Bioinforamticien stagiaire
+    start: Janv. 2021
+    end: Juin 2021
+    responsibilities:
+    - Developper un pipeline d'analyse de donnée single cell RNA seq.
+    - Concevoir une étude de l'intéractome entre les cellules immunitairtes et le systèmes nerveux sensoriels.
+    - Caractériser le transcriptome des mastocytes et mettre en évidence leurs probable implication dans le maintien de l'homéostasie tissulaire en condition inflammatoire.
+    - Développement d'une ébauche de WebApplication en R Shiny pour faciliter l'exploration des données par les membres de l'équipe.
+
+- company:
+    name: SeqOccin, GenPhySe (INRAE)
+    location: Auzeville, FRANCE (31)
+    overview: Stage facultatif. 100% Distanciel.
+  positions:
+  - designation: Bioinforamticien stagiaire
+    start: Juin 2020
+    end: Août 2020
+    responsibilities:
+    - Concevoir, développer et conduire une analyse de donnée Hi-C
+    - Utilisation du cluster de calcul Genologin de GenoToul (HPC SLURM)
+    - Introduction à NF-Core et Nextflow

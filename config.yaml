@@ -10,10 +10,10 @@ languages:
     title: "Jérémy Martin's Portfolio"
     languageName: English
     weight: 1
-  # fr:
-  #   title: "Portfolio de Jérémy Martin"
-  #   languageName: Français
-  #   weight: 2
+  fr:
+    title: "Portfolio de Jérémy Martin"
+    languageName: Français
+    weight: 2
 
 # Allow raw html in markdown file
 markup:

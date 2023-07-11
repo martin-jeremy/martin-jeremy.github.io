@@ -1,0 +1,63 @@
+# Section information
+section:
+  name: A propos
+  id: a-propos
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# Designation
+designation: Bioinformaticien
+company:
+  name: Equipe Gaudenzio, Institut Toulousains des Maladies Infectieuses et Inflammatoires
+  url: https://www.infinity.inserm.fr/equipes-de-recherche-2/equipe-3-n-gaudenzio/
+
+# Summary
+summary : "Je suis un **bioinformaticien passioné** avec 2 ans d'expérience académique dans un institut de recherche. D'une part, je conduit les **analyses de données** _(principalement issus d'imagerie, d'expérience transcriptomiques ou protéomiques)_, d'autre part, je construit et développe des **outils** et **méthodes** _pour faciliter l'exploration des données par les biologistes_."
+
+# Social links
+socialLinks:
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/martin-jeremy"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jeremy-martin-tlse"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "jeremy.martin@inserm.fr"
+
+# Available CV download
+resourceLinks:
+- title: "Mon CV"
+  url: "files/one_paged_CV.pdf"
+
+# Badges and Skills
+badges:
+- type: soft-skill-indicator
+  name: Travail d'équipe
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Autonomie
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Priotérisation des tâches
+  percentage: 80
+  color: green
+
+- type: soft-skill-indicator
+  name: Flexibilité et adaptabilité
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Vulgarisation technique
+  percentage: 85
+  color: "#b5b5bd"
