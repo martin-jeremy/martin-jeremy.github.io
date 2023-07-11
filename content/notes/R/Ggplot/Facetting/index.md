@@ -9,6 +9,7 @@ menu:
     weight: 10
 ---
 
+<!-- Facetting with ggplot -->
 {{< note title="Facetting with ggplot">}}
 
 Code snippet to play with facetting a ggplot. 
@@ -68,6 +69,7 @@ To add an `(all)` margin to the plot, just add `margin = TRUE` in the facet_grid
 
 {{< /note >}}
 
+<!-- Highlighting with ggplot -->
 {{< note title="Highlighting with ggplot">}}
 
 The trick here, consist to initialize the ggplot space with a dataset without the categorical information (here, species):
@@ -126,3 +128,5 @@ To add an `(all)` margin to the plot, just add `margin = TRUE` in the facet_grid
 ```
 
 ![two_way_facets_w_margin](/notes/R/facetting/09.png)
+
+{{< /note >}}
