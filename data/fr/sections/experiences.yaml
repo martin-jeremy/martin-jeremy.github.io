@@ -9,6 +9,14 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Alliance4U
+    url: "https://www.alliance4u.fr"
+    location: Toulouse, FRANCE (31)
+    overview: Consultant en sciences et analyses de données.
+  positions:
+  - designation: Consultant en sciences et analyses de donées.
+    start: Sept. 2023
+- company:
     name: Immception Lab, INFINITy (INSERM UMR 1291)
     url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
     location: Toulouse, FRANCE (31)
@@ -17,6 +25,7 @@ experiences:
   positions:
   - designation: Ingénieur d'Etude en Bioinformatique (Catégorie A)
     start: Juil. 2021
+    end: Sept. 2023
     responsibilities:
     - Concevoir, développer et conduire des pipelines d'analyses multiomiques.
     - Concervoir, développer et prodiguer des formations en bioinformatique.
