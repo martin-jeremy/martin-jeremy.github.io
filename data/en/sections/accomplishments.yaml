@@ -20,6 +20,13 @@ section:
   hideTitle: false # optionally hide the title in sections
 
 accomplishments:
+- name: ISTQB Foundation v4
+  timeline: "12/22/2023"
+  organization:
+    name: CFTL
+    url: "https://www.gasq.org/fr/certification/istqb.html#article-3154"
+  certificateURL: "https://app.skillsclub.com/credential/49138-ddec7ac423726b6ad77befde5ad293049365e4a8c6fa32c225b2298663275ac8"
+
 - name: Avanced R Course / Machine Learning with R and Caret
   timeline: "05/24 - 05/31 - 06/07/2023"
   organization:
