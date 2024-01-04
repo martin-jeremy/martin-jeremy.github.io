@@ -42,6 +42,11 @@ skills:
   summary: "Getting started with Alphafold and Alphafold-multimer. Data visualization and model manipulation with ChimeraX from UCSC."
   url: "https://github.com/deepmind/alphafold"
 
+- name: ISTQB
+  logo: images/sections/skills/istqb.png
+  summary: "ISTQB Foundation (v4) certified."
+  url: "https://istqb.org"
+
 # - name: Cluster Computing
 #   logo: images/sections/skills/
 #   summary:
