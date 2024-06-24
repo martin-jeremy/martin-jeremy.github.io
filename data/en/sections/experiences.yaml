@@ -12,16 +12,16 @@ experiences:
     name: Alliance4U
     url: "https://www.alliance4u.fr"
     location: Toulouse, FRANCE (31)
-    overview: Data Consultant | QA Tester
+    overview: Data consutlant. Member of the third-party application acceptance in the service center. Volontary member of the Technical Innovation Department.
   positions:
-  - designation: Data consutlant. Member of the third-party application acceptance in the service center. Volontary member of the Technical Innovation Department.
-    start: Sept. 2023
+  - designation: Data Consultant | QA Tester
+    start: Sep 2023
     responsabilities:
     - Raising awareness of Data issues.
     - Awareness of quality issues.
     - Functional and automation tester for service center customers.
     - Active participation in the company's communication project (internal/external).
-    
+
 - company:
     name: Gaudenzio Lab, INIFNITy (INSERM, UMR 1291)
     url: "https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/"
@@ -31,6 +31,7 @@ experiences:
   positions:
   - designation: Bioinformatician Engineer
     start: Jul 2021
+    end: Sep 2023
     responsibilities:
     - Design, develop and conduct multiomics analysis pipeline.
     - Design, develop and manage bioinformatician formations.
