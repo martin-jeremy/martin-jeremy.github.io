@@ -8,13 +8,14 @@ section:
   template: sections/about.html
 
 # Designation
-designation: Bioinformaticien
+designation: Consultant Data | Test et Qualité
 company:
-  name: Equipe Gaudenzio, Institut Toulousains des Maladies Infectieuses et Inflammatoires
-  url: https://www.infinity.inserm.fr/equipes-de-recherche-2/equipe-3-n-gaudenzio/
+  name: Alliance4U
+  url: "https://www.alliance4u.fr"
 
 # Summary
-summary : "Je suis un **bioinformaticien passioné** avec 2 ans d'expérience académique dans un institut de recherche. D'une part, je conduit les **analyses de données** _(principalement issus d'imagerie, d'expérience transcriptomiques ou protéomiques)_, d'autre part, je construit et développe des **outils** et **méthodes** _pour faciliter l'exploration des données par les biologistes_."
+# summary : "Je suis un **bioinformaticien passioné** avec 2 ans d'expérience académique dans un institut de recherche. D'une part, je conduit les **analyses de données** _(principalement issus d'imagerie, d'expérience transcriptomiques ou protéomiques)_, d'autre part, je construit et développe des **outils** et **méthodes** _pour faciliter l'exploration des données par les biologistes_."
+summary : "Je suis un **Data Analyst passioné** avec 3 ans d'expérience. Mon profil scientifique et mes facilités d'adaptations m'ont permis de me montrer pertinent en dehors de mon cadre d'expertise : acteur au sein de la direction technique de l'innovation, membre de la tierce recette applicative et de l'assurance qualité, je n'ai peur de relever aucun défis !"
 
 # Social links
 socialLinks:
@@ -24,11 +25,11 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/jeremy-martin-tlse"
+  url: "https://www.linkedin.com/in/martin-jeremy"
 
 - name: Email
   icon: "fas fa-envelope"
-  url: "jeremy.martin@inserm.fr"
+  url: "jeremy.martin@alliance4u.fr"
 
 # Available CV download
 resourceLinks:

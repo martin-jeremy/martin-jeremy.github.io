@@ -8,13 +8,13 @@ section:
   template: sections/about.html
 
 # Designation
-designation: Bioinformatician Engineer
+designation: Data Consultant | QA Tester
 company:
-  name: Gaudenzio Lab, INFINITy
-  url: https://www.infinity.inserm.fr/en/research-teams/team-3-n-gaudenzio/
+  name: Alliance4U
+  url: https://www.alliance4u.fr
 
 # Summary
-summary : 'I am a **passionate bioinformatician** with 2 years of working experience in academy. In one hand, I conduct **data anlysis** _(principaly imaging, transcriptomics, proteomics)_. In other hand, I built some **tools** _to facilitate data exploration by biologist_.'
+summary : "I'm a passionate **Data Analyst** with 3 years' experience. My scientific background and adaptability have allowed me to demonstrate my relevance outside my field of expertise: as a member of the technical innovation department, the third-party application acceptance team and quality assurance, I'm not afraid to take on any challenge!"
 
 # Social links
 socialLinks:
@@ -24,11 +24,11 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/jeremy-martin-tlse"
+  url: "https://www.linkedin.com/in/martin-jeremy"
 
 - name: Email
   icon: "fas fa-envelope"
-  url: "jeremy.martin@inserm.fr"
+  url: "jeremy.martin@alliance4u.fr"
 
 # Available CV download
 resourceLinks:
