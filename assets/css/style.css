@@ -96,8 +96,8 @@
 }
 
 /* .readme:hover{
-  color: white;
-  background-color: #00796b;
+color: white;
+background-color: #00796b;
 } */
 
 .contactme {
@@ -129,14 +129,14 @@ body {
 }
 
 /* body {
-  color: black;
-  font-size: 18px;
+color: black;
+font-size: 18px;
 } */
 
 /* main a -- links */
 
 /* a {
-  color: #009688;
+color: #009688;
 } */
 
 a {
@@ -146,12 +146,12 @@ a {
 /* main blockqoute */
 
 /* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
+border-left: 5px solid #795548;
+color: #795548;
+font-size: 125%;
+font-weight: 400;
+margin: 20px 0;
+padding-left: 1.5rem;
 } */
 
 blockquote {
@@ -181,9 +181,9 @@ nav {
 }
 
 /* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
+background: rgb(149, 126, 212);
+box-shadow: none;
+height: 0;
 } */
 
 nav i {
@@ -195,8 +195,8 @@ nav i {
 /* main */
 
 /* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
+background: url(../../assets/img/bg.png) repeat;
+padding-left: 190px;
 } */
 
 main {
@@ -228,11 +228,11 @@ ul.side-nav li {
 }
 
 /* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
+box-sizing: content-box;
+color: rgb(48, 122, 207);
+display: block;
+line-height: 100%;
+padding: 10px 0 12px;
 } */
 
 ul.side-nav.fixed a {
@@ -249,11 +249,11 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 /* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
-  box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
+background-color: #fafafa;
+border-bottom: 1px solid #ddd;
+box-sizing: content-box;
+min-height: 90px;
+padding: 30px 30px 40px;
 } */
 
 ul.side-nav.fixed li.logo {
@@ -315,8 +315,8 @@ h3 {
 /* Original */
 
 /* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
+background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
+position: relative;
 } */
 
 #intro.section {
@@ -333,10 +333,10 @@ h3 {
 }
 
 /* #intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+font-weight: 300;
+line-height: 150%;
+padding: 0 30px;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 } */
 
 #intro.section .container *:not(span) {
@@ -366,7 +366,7 @@ h3 {
 
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
-   of the button to still show through. */
+  of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
 }
 
@@ -413,9 +413,66 @@ h3 {
   text-transform: uppercase;
 }
 
+.more {
+  text-align: right; 
+  text-decoration: underline; 
+  font-style: italic; 
+  font-size: smaller;
+}
+
+#experience .card {
+  perspective: 500px;
+}
+
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#experience .card-content {
+  height: 50%;
+  width: 100%;
+}
+
+#experience .flip-content {
+  position: absolute;
+  height: 10%;
+  width: 95%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  perspective: 500px;
+}
+
+#experience .front, .back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  backface-visibility: hidden;
+  transition: transform 1s;
+  background-color: rgb(255, 255, 255);
+  transform-style: preserve-3d;
+}
+
+#experience .back {
+  transform: rotateY(180deg);
+}
+
+#experience .flipped {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+#experience .date-lieu {
+  text-align: left;
+}
+
+#experience .footer-right {
+  text-align: right;
 }
 
 #experience .card .col.s12.m2 a {
@@ -448,14 +505,10 @@ h3 {
 
 .card .card-title {
   font-size: 24px;
-  color: black;
-}
-
-.card-title {
-  color: black;
 }
 
 .card .card-content .card-title {
+  color: inherit;
   line-height: 2.5rem;
 }
 
@@ -474,7 +527,7 @@ a.hoverline {
 /* main a.hoverline */
 
 /* a.hoverline:hover {
-  border-bottom: 3px solid #24305e !important;
+border-bottom: 3px solid #24305e !important;
 } */
 
 a.hoverline:hover {
@@ -558,7 +611,7 @@ small {
 }
 
 /* .teal-text {
-  color: #0b5e86 !important;
+color: #0b5e86 !important;
 } */
 
 /* .teal */
@@ -568,7 +621,7 @@ small {
 }
 
 /* .teal {
-  background-color: #00695c !important;
+background-color: #00695c !important;
 } */
 
 @media (min-width: 1200px) {
