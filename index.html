@@ -251,6 +251,9 @@
                 <p>
                   <b>Equipe :</b> //
                 </p>
+                <p>
+                  <b>Lien :</b> <a href="" target="_blank">//</a>
+                </p>
                 <p class="more">Click to go back...</p>
               </div>
             </div>
@@ -278,7 +281,7 @@
                 <p>
                   <b>Contexte : </b>L'EPIDE (Établissement pour l'insertion dans l'emploi) accompagne les jeunes de 18 à 25 ans sans diplôme ni emploi vers une insertion durable dans la société et le monde du travail, grâce à un cadre combinant formation, citoyenneté et activités sportives. Pour optimiser ce processus, l'EPIDE a récemment déployé NAMe, la Nouvelle Application Métier. NAMe centralise et facilite la gestion des démarches administratives, le suivi des jeunes et la coordination des interventions, rendant ainsi le travail des agents plus efficace et mieux adapté aux besoins actuels.
                 </p>
-                <p class="more">Click to see more...</p>
+                <div class="more">Click to see more...</div>
               </div>
               <div class="back">
                 <p>
@@ -296,7 +299,10 @@
                 <p>
                   <b>Equipe :</b> Un test manageur, un consultant AMOA, deux testeurs fonctionnels.
                 </p>
-                <p class="more">Click to go back...</p>
+                <p>
+                  <b>Lien :</b> <a href="https://www.epide.fr/" target="_blank">EPIDE</a>
+                </p>
+                <div class="more">Click to go back...</div>
               </div>
             </div>
           </div>
@@ -323,7 +329,7 @@
                 <p>
                   <b>Contexte :</b> La métropôle de Nantes compte 8 Bibliothèques et 2 médiathèques. Dans le cadre de sa digitalisation, la ville a fait appel à un prestataire externe pour concevoir et réaliser un site web basé sur la technologie WordPress. La société Alliance4U a obtenue le marché de TRA pour assurer la vérification et la conformité avec les spécification fonctionnelles et le Plan d'Assurance Qualité de Nantes Métropôle.
                 </p>
-                <p class="more">Click to see more...</p>
+                <div class="more">Click to see more...</div>
               </div>
               <div class="back">
                 <p>
@@ -341,7 +347,10 @@
                 <p>
                   <b>Equipe :</b> Un testeur fonctionnel
                 </p>
-                <p class="more">Click to go back...</p>
+                <p>
+                  <b>Lien :</b> <a href="https://bibliotheque.nantes.fr/" target="_blank">Nantes Ma Bibliothèque</a>
+                </p>
+                <div class="more">Click to go back...</div>
               </div>
             </div>
           </div>
@@ -355,21 +364,21 @@
           <div class="card-content">
             <div class="row">
               <div class="col s12 m10 center-block">
-                  <span class="card-title">IMMCEPTION LAB <em>(INSERM UMR1291)</em></span>
+                  <span class="card-title">INFINITY <em>(INSERM UMR1291)</em></span>
               </div>
               <div class="role brown-text text-darken-2 center-block">
-                Scientist / Analyst for Life Science
+                Bio Informatique
               </div>
             </div>
             <div class="flip-content">
               <div class="front">
                 <p>
-                  <b>Projet :</b> // 
+                  <b>Projet :</b> Ingénieur au sein de l'Immception Lab (N. GAUDENZIO)
                 </p>
                 <p>
                   <b>Contexte :</b> //
                 </p>
-                <p class="more">Click to see more...</p>
+                <div class="more">Click to see more...</div>
               </div>
               <div class="back">
                 <p>
@@ -387,7 +396,10 @@
                 <p>
                   <b>Equipe :</b> //
                 </p>
-                <p class="more">Click to go back...</p>
+                <p>
+                  <b>Lien :</b> <a href="" target="_blank">//</a>
+                </p>
+                <div class="more">Click to go back...</div>
               </div>
             </div>
           </div>
@@ -901,16 +913,26 @@
 
   <!-- flip card -->
   <script>
-    // Select all elements with that match the '#experience .card' class
+    // Select all elements that match the '#experience .card' class
     const cards = document.querySelectorAll('#experience .card');
   
     // Loop through each card and attach the click event listener
     cards.forEach(card => {
-      card.addEventListener('click', function() {
-        this.querySelector('.flip-content').classList.toggle('flipped');
+      // Add an event listener to all elements with the "more" class in each card (front and back)
+      const moreButtons = card.querySelectorAll('.more');
+      
+      moreButtons.forEach(button => {
+        button.addEventListener('click', function(event) {
+          // Prevent the event from bubbling up to parent elements
+          event.stopPropagation();
+          
+          // Flip the content
+          card.querySelector('.flip-content').classList.toggle('flipped');
+        });
       });
     });
-  </script>
+</script>
+
   
 </body>
 
