@@ -452,7 +452,7 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 
 #experience .flip-content {
   position: absolute;
-  width: 90%;
+  width: 95%;
   transition: transform 1s;
   transform-style: preserve-3d;
   perspective: 500px;
@@ -503,6 +503,7 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 
 .card ul {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .card ul li {
