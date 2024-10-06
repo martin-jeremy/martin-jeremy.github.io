@@ -422,15 +422,18 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 
 #experience .card {
   perspective: 500px;
+  display: flexbox;
+  flex-direction: column;
 }
 
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
   align-items: center;
 }
+
 
 #experience .card-content {
   height: 40%;
@@ -439,7 +442,7 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 
 #experience .flip-content {
   position: absolute;
-  width: 95%;
+  width: 90%;
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -455,6 +458,8 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   transition: transform 1s;
   background-color: rgb(255, 255, 255);
   transform-style: preserve-3d;
+  min-height: 275px;
+  overflow-y: auto;
 }
 
 #experience .back {
