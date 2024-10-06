@@ -387,6 +387,10 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   border-bottom: 2px solid #ffab40;
 }
 
+.card a {
+  font-style: italic;
+}
+
 .card li a:hover {
   color: #333;
   font-weight: 500;
@@ -414,10 +418,16 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .more {
+  color: #ffab40;
   text-align: right; 
   text-decoration: underline; 
   font-style: italic; 
   font-size: smaller;
+  cursor: pointer;
+}
+
+.more:hover {
+  color: #ffd8a6;
 }
 
 #experience .card {
@@ -445,7 +455,6 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   width: 90%;
   transition: transform 1s;
   transform-style: preserve-3d;
-  cursor: pointer;
   perspective: 500px;
 }
 
