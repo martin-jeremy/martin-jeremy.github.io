@@ -11,7 +11,8 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  /* border: 6px solid rgba(0, 77, 64, 0.4);  */
+  border: 6px solid #16212a;
   border-radius: 50% !important;
 }
 
@@ -601,7 +602,7 @@ a.hoverline:hover {
   padding: 30px 0;
 }
 
-#experience .card-content .row {
+#experience .card-content .row, {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
 }
