@@ -15,10 +15,12 @@
   border-radius: 50% !important;
 }
 
+
 .profile-pic img {
   width: 100%;
   height: auto;
 }
+
 
 .tracker {
   /* visibility: hidden; */
@@ -85,7 +87,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #12202e;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -356,7 +358,7 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #16212abf;
   height: 100%;
   left: 0;
   position: absolute;
@@ -384,7 +386,7 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 .card li a {
   margin-right: 0;
   color: #333;
-  border-bottom: 2px solid #ffab40;
+  border-bottom: 2px solid #12202e;
 }
 
 .card a {
@@ -418,7 +420,7 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .more {
-  color: #ffab40;
+  color: #12202e;
   text-align: right; 
   text-decoration: underline; 
   font-style: italic; 
@@ -427,16 +429,27 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .more:hover {
-  color: #ffd8a6;
+  color: #16212abf;
 }
 
-#experience .card {
+a {
+  color: #12202e !important;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #16212abf !important;
+}
+
+#experience .card, 
+#education .card {
   perspective: 500px;
   display: flexbox;
   flex-direction: column;
 }
 
-#experience .card-action {
+#experience .card-action,
+#education .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
   display: flexbox;
@@ -445,12 +458,14 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 
-#experience .card-content {
+#experience .card-content,
+#education .card-content {
   height: 40%;
   width: 100%;
 }
 
-#experience .flip-content {
+#experience .flip-content,
+#education .flip-content {
   position: absolute;
   width: 95%;
   transition: transform 1s;
@@ -458,7 +473,8 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   perspective: 500px;
 }
 
-#experience .front, .back {
+#experience .front, #experience .back,
+#education .front, #education .back {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -471,28 +487,34 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   overflow-y: auto;
 }
 
-#experience .back {
+#experience .back,
+#education .back {
   transform: rotateY(180deg);
 }
 
-#experience .flipped {
+#experience .flipped,
+#education .flipped {
   transform: rotateY(180deg);
   transition: transform 0.5s;
 }
 
-#experience .date-lieu {
+#experience .date-lieu,
+#education .date-lieu {
   text-align: left;
 }
 
-#experience .footer-right {
+#experience .footer-right,
+#education .footer-right  {
   text-align: right;
 }
 
-#experience .card .col.s12.m2 a {
+#experience .card .col.s12.m2,
+#education .card .col.s12.m2 a {
   display: block;
 }
 
-#experience .card .col.s12.m2 a img {
+#experience .card .col.s12.m2,
+#education .card .col.s12.m2 a img {
   max-height: 60px;
 }
 
@@ -627,7 +649,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #12202e !important;
 }
 
 /* .teal-text {
@@ -636,9 +658,13 @@ color: #0b5e86 !important;
 
 /* .teal */
 
+
+
 .teal {
-  background-color: #008073 !important;
+  background-color: #12202e !important;
 }
+
+
 
 /* .teal {
 background-color: #00695c !important;
@@ -680,7 +706,7 @@ background-color: #00695c !important;
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #38536b;
     height: 56px;
     line-height: 56px;
   }
@@ -769,4 +795,22 @@ background-color: #00695c !important;
   #intro.section {
     background-position-x: 30%;
   }
+}
+
+#submit-contact {
+  margin-top: 5; 
+  color: white;
+  background-color: #12202e; 
+  border-color: transparent; 
+  border-radius: 5px; 
+  width: 100%;
+}
+
+#submit-contact:hover {
+  background-color: #16212abf; 
+}
+
+#message {
+  min-height: 200px;
+  border-radius: 10px;
 }
