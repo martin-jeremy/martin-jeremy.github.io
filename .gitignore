@@ -1,3 +1,4 @@
 test.html
 .env
 .venv/
+node_modules/*

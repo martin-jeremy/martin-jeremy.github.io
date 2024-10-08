@@ -1,0 +1,6 @@
+{
+  "homepage": "https://martin-jeremy.github.io",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
