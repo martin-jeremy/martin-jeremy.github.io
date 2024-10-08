@@ -461,7 +461,7 @@ a:hover {
 
 #experience .card-content,
 #education .card-content {
-  height: 40%;
+  height: 35%;
   width: 100%;
 }
 
@@ -674,6 +674,14 @@ background-color: #00695c !important;
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
+  }
+}
+
+@media (min-width: 640px) {
+  .columns_list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 }
 
