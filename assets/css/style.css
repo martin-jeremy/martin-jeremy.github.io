@@ -467,24 +467,27 @@ a:hover {
 
 #experience .flip-content,
 #education .flip-content {
-  position: absolute;
+  position: -webkit-sticky;
+  height: 100%;
   width: 95%;
   transition: transform 1s;
   transform-style: preserve-3d;
   perspective: 500px;
+  /* margin-left: -10.5px; */
+  margin-right: -10.5px;
 }
 
 #experience .front, #experience .back,
 #education .front, #education .back {
   position: absolute;
-  height: 100%;
+  height: 75%;
   width: 100%;
   text-align: left;
   backface-visibility: hidden;
   transition: transform 1s;
   background-color: rgb(255, 255, 255);
   transform-style: preserve-3d;
-  min-height: 275px;
+  /* min-height: 275px; */
   overflow-y: auto;
 }
 
